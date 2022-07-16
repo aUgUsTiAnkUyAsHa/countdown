@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+* { 
+    box-sizing: border-box;
+    
+    
+}
+#timeup{
+    background-image: url(https://wallpapers-hub.art/wallpaper-images/158529.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: "poppins" sans-serif ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top:-7px ;
+    margin-bottom: -9px;
+    margin-left: -7px;
+    margin-right: -9px;
+    z-index: 100px;
+}
+
+h1{
+    margin-top: 100px;
+    font-weight: normal;
+    font-size: 70px;
+    font-style: oblique;
+   color: rgb(214, 21, 121);
+    
+}
+.Countdown{
+    display: flex;
+    transform: scale(2.5);
+    
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.time h2{
+    font-weight: 800;
+    font-size: 30px;
+    margin: 0 0 5px;
+}
+.container{
+   
+   display: flex;
+   box-sizing: 200px;
+   align-items: center;
+   justify-content: center;
+   background-color: rgba(0 0 0 0.5);
+  
+}
+.btn1{
+    
+     margin: 80px;
+     box-sizing: content-box;
+     border-radius: 20px;
+     cursor: pointer;
+     font-family: "poppins" sans-serif; 
+     font-size: 20px;
+     font-style: oblique;
+     box-sizing: 150px;
+     font-weight: bolder;
+     border:none;
+     color:rgb(50, 0, 247);
+     background: transparent;
+     letter-spacing: 10px;
+     justify-content: center;
+     align-items: center;
+ 
+}
+.btn2{
+    
+    margin: 10px;
+    box-sizing: content-box;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: "poppins" sans-serif; 
+    font-weight: bolder;
+    font-size: 20px;
+    font-style: oblique;
+    box-sizing: 150px;
+    border:none;
+    color:rgb(50, 0, 247);
+    background: transparent;
+    letter-spacing: 10px;
+
+}
+.btn2:hover{
+    box-shadow: 0 0px 50px rgb(50, 0, 247) inset, 0 0px 50px rgb(50, 0, 247);
+}
+.btn1:hover{
+    box-shadow: 0 0px 50px rgb(50, 0, 247) inset, 0 0px 50px rgb(50, 0, 247);
+}
+
+
+@media(max-width:600px){
+    h1{
+        font-size: 40px;
+
+    }
+    .time{
+        margin: 5px;
+    }
+    .time h2{
+        font-size: 12px;
+    }
+    .time small{
+        font-size: 10px;
+    }
+}
+#hidepage{
+    visibility: hidden;
+   position: absolute;   
+}
+.hidepage h1{
+    margin-top: -10px;
+    font-weight: normal;
+    font-size: 40px;
+    font-style: oblique;
+   color: rgb(214, 21, 121);
+}
+#animation{
+    background-image: url(https://images.pexels.com/photos/1767434/pexels-photo-1767434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+   background-position:center;
+ 
+   background-size: cover;
+   background-repeat: no-repeat;
+    
+}
